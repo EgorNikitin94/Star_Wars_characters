@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		50707B922691B75900D55314 /* StarWarsCharactersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707B912691B75900D55314 /* StarWarsCharactersApp.swift */; };
-		50707B942691B75900D55314 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707B932691B75900D55314 /* ContentView.swift */; };
+		50707B942691B75900D55314 /* СharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707B932691B75900D55314 /* СharactersView.swift */; };
 		50707B962691B76500D55314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50707B952691B76500D55314 /* Assets.xcassets */; };
 		50707B992691B76500D55314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50707B982691B76500D55314 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		50707B8E2691B75900D55314 /* StarWarsCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50707B912691B75900D55314 /* StarWarsCharactersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCharactersApp.swift; sourceTree = "<group>"; };
-		50707B932691B75900D55314 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50707B932691B75900D55314 /* СharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СharactersView.swift"; sourceTree = "<group>"; };
 		50707B952691B76500D55314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50707B982691B76500D55314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50707B9A2691B76500D55314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				50707B912691B75900D55314 /* StarWarsCharactersApp.swift */,
-				50707B932691B75900D55314 /* ContentView.swift */,
+				50707B932691B75900D55314 /* СharactersView.swift */,
 				50707B952691B76500D55314 /* Assets.xcassets */,
 				50707B9A2691B76500D55314 /* Info.plist */,
 				50707B972691B76500D55314 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50707B942691B75900D55314 /* ContentView.swift in Sources */,
+				50707B942691B75900D55314 /* СharactersView.swift in Sources */,
 				50707B922691B75900D55314 /* StarWarsCharactersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
