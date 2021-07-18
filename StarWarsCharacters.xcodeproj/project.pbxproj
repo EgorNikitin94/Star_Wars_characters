@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50226EF426A4643800BD7607 /* VKLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50226EF326A4643800BD7607 /* VKLoginView.swift */; };
+		50226EF926A471F300BD7607 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50226EF826A471F300BD7607 /* TabBarView.swift */; };
+		50226EFE26A474F000BD7607 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50226EFD26A474F000BD7607 /* PlayerView.swift */; };
+		50226F0226A4751F00BD7607 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50226F0126A4751F00BD7607 /* VideoView.swift */; };
+		50226F0526A4754F00BD7607 /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50226F0426A4754F00BD7607 /* RecorderView.swift */; };
+		50226F0A26A476BD00BD7607 /* LearnSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50226F0926A476BD00BD7607 /* LearnSwiftUIView.swift */; };
 		50707B922691B75900D55314 /* StarWarsCharactersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707B912691B75900D55314 /* StarWarsCharactersApp.swift */; };
 		50707B942691B75900D55314 /* СharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707B932691B75900D55314 /* СharactersView.swift */; };
 		50707B962691B76500D55314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50707B952691B76500D55314 /* Assets.xcassets */; };
 		50707B992691B76500D55314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50707B982691B76500D55314 /* Preview Assets.xcassets */; };
+		50707BA32691B9E600D55314 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707BA22691B9E600D55314 /* Character.swift */; };
+		50707BA82691BBDD00D55314 /* CharactersStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707BA72691BBDD00D55314 /* CharactersStorage.swift */; };
+		50707BAB2691C01E00D55314 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707BAA2691C01E00D55314 /* ListRow.swift */; };
+		50707BB02691D37900D55314 /* DetailCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50707BAF2691D37900D55314 /* DetailCharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50226EF326A4643800BD7607 /* VKLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKLoginView.swift; sourceTree = "<group>"; };
+		50226EF826A471F300BD7607 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		50226EFD26A474F000BD7607 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		50226F0126A4751F00BD7607 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		50226F0426A4754F00BD7607 /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		50226F0926A476BD00BD7607 /* LearnSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwiftUIView.swift; sourceTree = "<group>"; };
 		50707B8E2691B75900D55314 /* StarWarsCharacters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsCharacters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50707B912691B75900D55314 /* StarWarsCharactersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCharactersApp.swift; sourceTree = "<group>"; };
 		50707B932691B75900D55314 /* СharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СharactersView.swift"; sourceTree = "<group>"; };
 		50707B952691B76500D55314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50707B982691B76500D55314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50707B9A2691B76500D55314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50707BA22691B9E600D55314 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		50707BA72691BBDD00D55314 /* CharactersStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersStorage.swift; sourceTree = "<group>"; };
+		50707BAA2691C01E00D55314 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		50707BAF2691D37900D55314 /* DetailCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				50707B912691B75900D55314 /* StarWarsCharactersApp.swift */,
+				50226EF826A471F300BD7607 /* TabBarView.swift */,
+				50226EF326A4643800BD7607 /* VKLoginView.swift */,
+				50707BA22691B9E600D55314 /* Character.swift */,
+				50707BA72691BBDD00D55314 /* CharactersStorage.swift */,
 				50707B932691B75900D55314 /* СharactersView.swift */,
+				50707BAA2691C01E00D55314 /* ListRow.swift */,
+				50707BAF2691D37900D55314 /* DetailCharacterView.swift */,
+				50226EFD26A474F000BD7607 /* PlayerView.swift */,
+				50226F0126A4751F00BD7607 /* VideoView.swift */,
+				50226F0426A4754F00BD7607 /* RecorderView.swift */,
+				50226F0926A476BD00BD7607 /* LearnSwiftUIView.swift */,
 				50707B952691B76500D55314 /* Assets.xcassets */,
 				50707B9A2691B76500D55314 /* Info.plist */,
 				50707B972691B76500D55314 /* Preview Content */,
@@ -138,8 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50226EFE26A474F000BD7607 /* PlayerView.swift in Sources */,
+				50226F0526A4754F00BD7607 /* RecorderView.swift in Sources */,
+				50707BA32691B9E600D55314 /* Character.swift in Sources */,
 				50707B942691B75900D55314 /* СharactersView.swift in Sources */,
+				50226EF926A471F300BD7607 /* TabBarView.swift in Sources */,
+				50226F0A26A476BD00BD7607 /* LearnSwiftUIView.swift in Sources */,
 				50707B922691B75900D55314 /* StarWarsCharactersApp.swift in Sources */,
+				50707BA82691BBDD00D55314 /* CharactersStorage.swift in Sources */,
+				50226F0226A4751F00BD7607 /* VideoView.swift in Sources */,
+				50707BAB2691C01E00D55314 /* ListRow.swift in Sources */,
+				50226EF426A4643800BD7607 /* VKLoginView.swift in Sources */,
+				50707BB02691D37900D55314 /* DetailCharacterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
