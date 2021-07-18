@@ -9,13 +9,24 @@ import SwiftUI
 
 struct СharactersView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(Storage.shared, id: \.id) { character in
+                    NavigationLink(destination: DetailCharacterView(character: character)) {
+                        ListRow(character: character)
+                    }
+                }
+            }.navigationTitle("StarWars")
+        }
     }
 }
 
 struct СharactersView_Previews: PreviewProvider {
     static var previews: some View {
-        СharactersView()
+        Group {
+            СharactersView()
+            СharactersView()
+                .preferredColorScheme(.dark)
+        }
     }
 }
